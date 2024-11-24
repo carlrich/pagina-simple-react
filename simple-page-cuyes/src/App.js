@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import AppRouter from './routers/AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <h1>Bienvenidos a mi página web!</h1>
+      <Navbar/>
+      <AppRouter/>
     </div>
   );
 }
